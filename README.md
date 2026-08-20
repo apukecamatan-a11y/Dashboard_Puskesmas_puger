@@ -1771,7 +1771,7 @@
             <div class="brand-mark"><img id="pf-logo-img" alt="Logo Puskesmas Puger"></div>
             <div class="brand-text">
               <h1 id="pf-name" class="txt-outline">Puskesmas Puger</h1>
-              <p id="pf-subtitle">UPT Puskesmas Puger — Dinas Kesehatan Kabupaten Jember</p>
+              <p id="pf-subtitle">UPT Puskesmas Puger-Kabupaten Jember</p>
             </div>
           </div>
           <div class="hero-actions">
