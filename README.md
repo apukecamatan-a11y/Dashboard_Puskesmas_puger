@@ -1840,8 +1840,8 @@
       <section class="section" id="sec-fasilitas">
         <div class="section-head">
           <div>
-            <h3>Fasilitas Layanan Kesehatan</h3>
-            <p>Sarana dan prasarana pendukung pelayanan</p>
+            <h3>Fasilitas Layanan Dan Sumber Daya Tenaga Kesehatan</h3>
+            <p>Sarana prasarana dan SDM pendukung pelayanan</p>
           </div>
         </div>
         <div class="simple-grid" id="fasilitas-grid"></div>
@@ -2023,13 +2023,15 @@
                 <button class="btn btn-primary btn-sm" id="btn-add-program">+ Tambah Data Bulan</button>
               </div>
             </div>
-            <p class="desc" style="margin-top:-6px;">Format kolom mengikuti template Excel resmi (<code>Report.xlsx</code>):
+            <p class="desc" style="margin-top:-6px;">Format kolom mengikuti template Excel resmi
+              (<code>Report.xlsx</code>):
               <code>name, category, desa, period year, month, target, achieved, unit</code> (boleh juga file .csv dengan
-              kolom yang sama; header <code>period</code> tanpa "year" tetap dikenali). Kolom <code>month</code> bisa diisi
+              kolom yang sama; header <code>period</code> tanpa "year" tetap dikenali). Kolom <code>month</code> bisa
+              diisi
               angka 1–12 atau nama bulan (mis. Januari/Jan). Kolom <code>desa</code> diisi <code>Semua Desa</code>
               untuk data total Puskesmas (dipakai grafik utama), atau nama salah satu desa binaan untuk mengisi
               rincian per desa; boleh dikosongkan dan otomatis dianggap Semua Desa — <b>desa lain yang belum diisi
-              akan otomatis diperkirakan sistem</b> di halaman publik, jadi tidak wajib mengisi tiap desa satu per
+                akan otomatis diperkirakan sistem</b> di halaman publik, jadi tidak wajib mengisi tiap desa satu per
               satu. Satu baris = data satu program/desa pada satu bulan, sehingga capaian bisa ditampilkan
               berjenjang Januari–Desember pada grafik line di halaman publik. Gunakan tombol <b>Ekspor Excel</b>
               untuk mendapatkan file dengan format dan urutan kolom yang persis sama dengan template, supaya saat
@@ -2119,7 +2121,7 @@
           <div class="panel">
             <div class="toolbar">
               <div class="left">
-                <p class="desc" style="margin:0;">Kelola daftar fasilitas layanan kesehatan</p>
+                <p class="desc" style="margin:0;">Kelola daftar Fasilitas Layanan Dan Sumber Daya Tenaga Kesehatan</p>
               </div>
               <button class="btn btn-primary btn-sm" id="btn-add-facility">+ Tambah Fasilitas</button>
             </div>
@@ -4059,7 +4061,7 @@
         program: ['Capaian Layanan', 'Kelola data capaian program kesehatan per bulan (Januari–Desember)'],
         pengumuman: ['Papan Informasi', 'Kelola teks berjalan & pengumuman di halaman publik'],
         layanan: ['Informasi Layanan', 'Kelola daftar jenis layanan kesehatan'],
-        fasilitas: ['Fasilitas Kesehatan', 'Kelola daftar fasilitas layanan kesehatan'],
+        fasilitas: ['Fasilitas Kesehatan', 'Kelola daftar Fasilitas Layanan Dan Sumber Daya Tenaga Kesehatan'],
         klaster: ['Klaster Layanan', 'Tambah, ubah, atau hapus klaster beserta deskripsi dan daftar layanannya'],
         sdm: ['SDM & Jadwal Dokter', 'Kebutuhan tenaga kesehatan/administrasi, jadwal dokter, formulir & berkas pendaftaran'],
         hotline: ['Hotline & Kontak', 'Kelola nomor hotline layanan dan kontak darurat'],
